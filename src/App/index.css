@@ -1,4 +1,4 @@
-section.game {
+section.layout {
   /* Centered section with rounded borders and cristal effect */
   display: flex;
   flex-direction: column;
@@ -6,12 +6,13 @@ section.game {
   justify-content: center;
   margin: 5% auto;
   padding: 1rem;
+  padding-bottom: 3rem;
   width: 90%;
   border-radius: 1rem;
   background-color: var(--color-gray-200);
 }
 
-section > h1 {
+section.layout > h1 {
   font-size: 3rem;
   font-weight: bold;
   margin-bottom: 3rem;

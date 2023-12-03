@@ -1,0 +1,37 @@
+.
+├── README.md
+├── index.html
+├── package-lock.json
+├── package.json
+├── project_structure.txt
+├── public
+│   └── vite.svg
+├── src
+│   ├── App
+│   │   ├── index.css
+│   │   └── index.jsx
+│   ├── Components
+│   │   ├── Board
+│   │   │   ├── Square
+│   │   │   │   ├── index.css
+│   │   │   │   └── index.jsx
+│   │   │   ├── index.css
+│   │   │   └── index.jsx
+│   │   ├── Game
+│   │   │   └── index.jsx
+│   │   ├── Turn
+│   │   │   └── index.jsx
+│   │   └── Winner
+│   │       └── index.jsx
+│   ├── Context
+│   │   └── GameContext.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── utils
+│       └── gameLogic
+│           ├── checkWinner.jsx
+│           ├── handleSquareClick.jsx
+│           └── resetGame.jsx
+└── vite.config.js
+
+13 directories, 22 files
