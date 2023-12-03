@@ -1,0 +1,17 @@
+:root {
+  /* light colors: white, gray, dar */
+  --color-white: #fff;
+  --color-gray-200: #edf2f7;
+  --color-gray-400: #cbd5e0;
+  --color-gray-600: #718096;
+  --color-gray-800: #2d3748;
+  --color-black: #000;
+}
+
+body {
+  background-color: var(--color-gray-400);
+  color: var(--color-gray-800);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}

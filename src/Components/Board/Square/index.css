@@ -1,0 +1,18 @@
+.square {
+  /* square with ligh rounded border and cristal effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  height: 50px;
+  width: 50px;
+  background-color: var(--color-gray-200);
+  transition: box-shadow, background-color 0.2s ease-in-out;
+  cursor: pointer;
+  border: 1px solid var(--color-gray-400);
+}
+
+.square:hover {
+  box-shadow: 0 0 0.5rem var(--color-gray-400);
+  background-color: var(--color-white);
+}
