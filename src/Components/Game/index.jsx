@@ -1,18 +1,11 @@
 import { Board } from "../Board";
 import { Turn } from "../Turn";
-import { useState } from "react";
 import { Restart } from "../Restart";
+import { useGameState } from "./useGameState";
 
 export const Game = () => {
-  const [turn, setTurn] = useState(null);
-  const [winner, setWinner] = useState(null);
-  const [board, setBoard] = useState(Array(9).fill(null));
-
-  const restartGame = () => {
-    setTurn(null);
-    setWinner(null);
-    setBoard(Array(9).fill(null));
-  };
+  const { turn, setTurn, winner, setWinner, board, setBoard, restartGame } =
+    useGameState();
 
   return (
     <>
