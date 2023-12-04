@@ -1,7 +1,7 @@
-export const Turn = () => {
+export const Turn = ({ turn }) => {
   return (
     <div className="turn">
-      <h2>Turn: X</h2>
+      <h2>{turn}</h2>
     </div>
   );
 };

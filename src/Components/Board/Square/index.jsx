@@ -1,9 +1,9 @@
 import "./index.css";
 
-export const Square = () => {
+export const Square = ({ turn, onClick }) => {
   return (
-    <div className="square">
-      <h1>X</h1>
+    <div className="square" onClick={onClick}>
+      <h1>{turn}</h1>
     </div>
   );
 };
