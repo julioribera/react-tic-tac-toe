@@ -4,8 +4,7 @@ import { Restart } from "../Restart";
 import { useGameState } from "./useGameState";
 
 export const Game = () => {
-  const { turn, setTurn, winner, setWinner, board, setBoard, restartGame } =
-    useGameState();
+  const { turn, winner, board, updateBoard, restartGame } = useGameState();
 
   return (
     <>
@@ -17,11 +16,9 @@ export const Game = () => {
 
       <Board
         turn={turn}
-        setTurn={setTurn}
         winner={winner}
-        setWinner={setWinner}
         board={board}
-        setBoard={setBoard}
+        updateBoard={updateBoard}
       />
       {winner ? (
         <Restart
